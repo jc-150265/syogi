@@ -89,7 +89,15 @@ namespace SwissDraw
         private static int getVersusKey1(int minKey, int[] keys, Match[] matches, Match[] results)
                                              //1    1 3 5 8 10 30          3[]              0
         {
-            
+            int getVersus = 0;
+            int min = minKey;
+            int[] Lots = keys;
+
+            //勝ち数計算メソッド呼び出し
+
+
+
+            return getVersus;
         }
         //（使われていない、対戦していない勝ち数が同じ）
         private static int getVersusKey2(int minKey, int[] keys, Match[] matches, Match[] results)

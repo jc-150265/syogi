@@ -11,7 +11,7 @@ namespace SwissDraw
         // くじの番号
         public int LotNumber { get; set; }
         // グループ名（1文字のアルファベット）
-        public static string PersonGroup { get; set; }
+        public string PersonGroup { get; set; }
         // 参加者名
         public string PersonName { get; set; }
     }
